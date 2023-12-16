@@ -1,4 +1,4 @@
-# satysfi-nvim
+# satysfi.nvim
 
 Provides configurations of [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) and [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) for [SATySFi](https://github.com/gfngfn/SATySFi) language.
 
