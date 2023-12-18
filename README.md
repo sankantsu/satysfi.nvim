@@ -12,7 +12,7 @@ require("satysfi-nvim").setup()
 
 ### `nvim-lspconfig` integration
 
-This plugin registers `satysfi-language-server` to lspconfig as `satysfi_ls`.
+This plugin registers [`satysfi-language-server`](https://github.com/monaqa/satysfi-language-server) to lspconfig as `satysfi_ls`.
 So you can setup `satysfi-language-serve` as follows.
 
 ```lua
@@ -25,8 +25,8 @@ See also [satysfi-mason-registry](https://github.com/sankantsu/satysfi-mason-reg
 
 ### `nvim-treesitter` integration
 
-This plugin registers `tree-sitter-satysfi` as a treesitter parser.
-You can install treesitter parser for satysfi by `:TSInstall satysfi` or setting `ensure_installed`.
+This plugin registers [`tree-sitter-satysfi`](https://github.com/monaqa/tree-sitter-satysfi) as a treesitter parser.
+You can install satysfi parser with `:TSInstall satysfi` or setting `ensure_installed = "satysfi"`.
 
 This plugin also contains query files from `tree-sitter-satysfi`, so you have no need to manually copy these files yourself.
 
